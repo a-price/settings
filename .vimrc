@@ -8,3 +8,5 @@ set noexpandtab
 
 set autoindent
 set pastetoggle=<F2>
+
+au BufNewFile,BufRead *.launch set filetype=xml
