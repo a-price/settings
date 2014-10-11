@@ -3,7 +3,7 @@
  * \brief
  *
  * \author Andrew Price
- * \date %MONTH% %DAY%, %YEAR%
+ * \date %YEAR%-%MONTH%-%DAY%
  *
  * \copyright
  *
