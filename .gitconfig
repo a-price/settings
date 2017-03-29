@@ -1,3 +1,5 @@
+[core]
+	attributesFile = ~/.gitattributes
 [user]
 	name = Andrew Price
 	email = arprice@gatech.edu
@@ -7,5 +9,8 @@
 	default = simple
 [diff]
 	algorithm = patience
+[diff "gz"]
+	textconv = zcat
+	binary = true
 [alias]
 	graph = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
